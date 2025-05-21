@@ -67,7 +67,7 @@ As principais tabelas do banco:
 - Relacionamentos corretamente definidos (e utilizados no Power BI).
 
 ## 📦 Exportação de Dados para BI
-Script Python para extração de dados do banco SQLite e disponibilização para ferramentas de BI.
+Utilize o Script Python no BI para extração de dados do banco SQLite e disponibilização para ferramentas de BI.
 ```bash
 import sqlite3
 import pandas as pd
