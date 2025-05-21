@@ -34,8 +34,8 @@
     <img src="https://img.shields.io/badge/-CSV%20Files-FF8800?style=flat-square&logo=files&logoColor=white" alt="CSV Badge" />
   </a>
 
-  <!-- Status -->
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=flat-square" alt="Status Badge" />
+<!-- Status -->
+  <img src="https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen?style=flat-square" alt="Status Badge" />
 </p>
 
 
