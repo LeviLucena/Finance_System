@@ -96,7 +96,7 @@ Relatório interativo em dashboard.pbix, com:
 - Transferências entre empresas: fluxo de capital (quem envia e quem recebe mais)
 - Desempenho por cliente: ranking dos maiores clientes por receita gerada
 
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 ```bash
 finance_system/
 ├── app/
