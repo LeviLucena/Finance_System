@@ -55,6 +55,9 @@ Este projeto é uma solução completa para controle, análise e visualização 
 - Clientes com maior receita gerada
 - Visualizações integradas via Power BI
 
+## 🌐 API RESTful com Flask
+- Exposição de dados para consumo externo (dashboards, integrações, análises)
+
 ## 🖥️ Banco de Dados (SQLite)
 As principais tabelas do banco:
 
@@ -92,11 +95,6 @@ Relatório interativo em dashboard.pbix, com:
 - Comparativo orçado x realizado
 - Transferências entre empresas: fluxo de capital (quem envia e quem recebe mais)
 - Desempenho por cliente: ranking dos maiores clientes por receita gerada
-
-
-
-## 🌐 API RESTful com Flask
-- Exposição de dados para consumo externo (dashboards, integrações, análises)
 
 📁 Estrutura do Projeto
 ```bash
