@@ -55,13 +55,6 @@ Este projeto é uma solução completa para controle, análise e visualização 
 - Clientes com maior receita gerada
 - Visualizações integradas via Power BI
 
-## 📊 Power BI Dashboard
-Relatório interativo em dashboard.pbix, com:
-- Visão geral de desempenho das empresas
-- Comparativo orçado x realizado
-- Transferências entre empresas: fluxo de capital (quem envia e quem recebe mais)
-- Desempenho por cliente: ranking dos maiores clientes por receita gerada
-
 ## 🖥️ Banco de Dados (SQLite)
 As principais tabelas do banco:
 
@@ -72,6 +65,35 @@ As principais tabelas do banco:
 - transferencias(id_transferencia,id_empresa_origem,id_empresa_destino,tipo,valor,data,descricao)
 - orcamentos(id_orcamento,id_empresa,ano,mes,tipo,valor_estimado)
 - Relacionamentos corretamente definidos (e utilizados no Power BI).
+
+## 📦 Exportação de Dados para BI
+Script Python para extração de dados do banco SQLite e disponibilização para ferramentas de BI.
+```bash
+import sqlite3
+import pandas as pd
+
+# Configuração do caminho do banco de dados
+db_path = r"C:\Users\"informe o caminho"\database\finance.db"
+
+# Para trazer outras tabelas basta repetir o processo e alterar o nome "clientes" para o nome da tabela que pretende exportar.
+# Conexão com o banco e extração dos dados
+conn = sqlite3.connect(db_path)
+query = "SELECT * FROM clientes" 
+df = pd.read_sql_query(query, conn)
+conn.close()
+
+# Visualização dos dados (opcional)
+print(df)
+```
+
+## 📊 Power BI Dashboard
+Relatório interativo em dashboard.pbix, com:
+- Visão geral de desempenho das empresas
+- Comparativo orçado x realizado
+- Transferências entre empresas: fluxo de capital (quem envia e quem recebe mais)
+- Desempenho por cliente: ranking dos maiores clientes por receita gerada
+
+
 
 ## 🌐 API RESTful com Flask
 - Exposição de dados para consumo externo (dashboards, integrações, análises)
