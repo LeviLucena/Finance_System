@@ -1,3 +1,44 @@
+<p align="center">
+  <!-- Linguagem principal -->
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Badge" />
+  </a>
+
+  <!-- Framework web -->
+  <a href="https://flask.palletsprojects.com/">
+    <img src="https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask Badge" />
+  </a>
+
+  <!-- CORS -->
+  <a href="https://flask-cors.readthedocs.io/en/latest/">
+    <img src="https://img.shields.io/badge/-Flask--CORS-00A1E0?style=flat-square&logo=flask&logoColor=white" alt="Flask-CORS Badge" />
+  </a>
+
+  <!-- Banco de dados -->
+  <a href="https://www.sqlite.org/index.html">
+    <img src="https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite Badge" />
+  </a>
+
+  <!-- Bibliotecas de dados -->
+  <a href="https://pandas.pydata.org/">
+    <img src="https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas Badge" />
+  </a>
+
+  <!-- Visualização -->
+  <a href="https://powerbi.microsoft.com/">
+    <img src="https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI Badge" />
+  </a>
+
+  <!-- Dados -->
+  <a href="https://en.wikipedia.org/wiki/Comma-separated_values">
+    <img src="https://img.shields.io/badge/-CSV%20Files-FF8800?style=flat-square&logo=files&logoColor=white" alt="CSV Badge" />
+  </a>
+
+  <!-- Status -->
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=flat-square" alt="Status Badge" />
+</p>
+
+
 ![Gemini_Generated_Image_tc0wb6tc0wb6tc0w](https://github.com/user-attachments/assets/a162d751-2eb5-4b20-8a20-64e511b2c687)
 ## 💰 Sistema de Análise Financeira com API + Power BI
 
